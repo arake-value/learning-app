@@ -1,3 +1,10 @@
 spring:
   application:
     name: learning-app
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+#    url: jdbc:postgresql://localhost:5432/testdb
+#    username: user
+#    password: password
