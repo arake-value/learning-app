@@ -25,6 +25,8 @@ public class ApiController {
         logger.debug("パラメーター: {}", id);
         UserEntity user = as.getUser(id);
         logger.debug("戻り値: {}", user);
+        String hostname = System.getenv("HOSTNAME");
+        logger.debug("HOSTNAME:{}",hostname);
         return ResponseEntity.ok(user);
 
     }

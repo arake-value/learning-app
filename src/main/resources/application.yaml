@@ -8,6 +8,8 @@ spring:
 
 logging:
   level:
-#    root: INFO
-    org.springframework.web: INFO
+    root: INFO
     com.arake.learningapp: DEBUG
+    org.springframework.web: INFO
+    org.mybatis: INFO
+    org.springframework.boot.autoconfigure: INFO
